@@ -1,0 +1,124 @@
+.simple-web {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+  }
+  
+  .kepala, .navigasi, .konten, .kaki {
+    padding: 1em;
+    border-width: 1px;
+  }
+  
+  .kepala {
+    text-align: center;
+    background-color: #f1f1f1;
+    
+  }
+
+  .kaki {
+    justify-content: space-around;
+    background-color: #f1f1f1;
+  }
+
+  .kaki .itemfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .kaki .itemfoot a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+  .kaki .overview {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .kaki .company {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kaki .explore {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+
+  .kepala .header {
+    text-align: left;
+  }
+
+  .kepala .header a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .kiri {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .kiri .box1{
+    background-color: purple;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  .kiri .box2{
+    background-color: blue;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  .kiri .box3{
+    background-color: red;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  .kiri .box4{
+    background-color: black;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  .kiri .box5{
+    background-color: chocolate;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+
+  
+  .konten {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    
+  }
+
+  .kanan {
+    width: 25%;
+    border-right-width: 1px;
+  }
+
+  .kanan .submit{
+    background-color: pink;
+    padding: 3px 25px;
+  }
